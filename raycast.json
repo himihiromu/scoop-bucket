@@ -7,7 +7,7 @@
         "url": "https://www.raycast.com/terms-of-service"
     },
     "url": "https://get.microsoft.com/installer/download/9PFXXSHC64H3#/RaycastInstaller.exe",
-    "hash": "6741c37d21981cf350b8ffded826963f126c103aada4d3e3a36b31387aa13b62",
+    "hash": "7de7e03b6d3fbbc0fa101fe561397eb6736e304be1eda8b4856047c77994e8b0",
     "installer": {
         "script": [
             "Start-Process \"$dir\\RaycastInstaller.exe\" -Wait"
