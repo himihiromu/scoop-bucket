@@ -1,0 +1,25 @@
+{
+    "version": "0.54.0.0",
+    "description": "A collection of powerful productivity tools all within an extendable launcher.",
+    "homepage": "https://www.raycast.com/windows",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.raycast.com/terms-of-service"
+    },
+    "url": "https://get.microsoft.com/installer/download/9PFXXSHC64H3#/RaycastInstaller.exe",
+    "hash": "6741c37d21981cf350b8ffded826963f126c103aada4d3e3a36b31387aa13b62",
+    "installer": {
+        "script": [
+            "Start-Process \"$dir\\RaycastInstaller.exe\" -Wait"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Get-AppxPackage *Raycast* | Remove-AppxPackage"
+        ]
+    },
+    "notes": [
+        "Raycast is installed via the Microsoft Store installer.",
+        "The installer may show a UAC prompt."
+    ]
+}
